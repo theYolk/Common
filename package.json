@@ -1,0 +1,11 @@
+{
+  "name": "theyolk-common",
+  "version": "0.0.0",
+  "description": "Common logic for The Yolk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Jonker",
+  "license": "LGPL-3.0"
+}
