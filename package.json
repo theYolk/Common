@@ -1,8 +1,16 @@
 {
-  "name": "theyolk-common",
+  "name": "@theyolk/theyolk-common",
   "version": "0.0.0",
   "description": "Common logic for The Yolk",
+  "homepage":"https://github.com/citkane/theyolk-common",
   "main": "index.js",
+  "directories":{
+    "lib":"lib"
+  },
+  "repository" :{ 
+    "type" : "git",
+    "url" : "https://github.com/citkane/theyolk-common.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
