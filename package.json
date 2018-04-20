@@ -2,21 +2,18 @@
   "name": "@theyolk/theyolk-common",
   "version": "0.0.0",
   "description": "Common logic for The Yolk",
-  "homepage": "https://github.com/citkane/theyolk-common",
+  "homepage":"https://github.com/citkane/theyolk-common",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
+  "directories":{
+    "lib":"lib"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/citkane/theyolk-common.git"
+  "repository" :{ 
+    "type" : "git",
+    "url" : "https://github.com/citkane/theyolk-common.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Jonker",
-  "license": "LGPL-3.0",
-  "dependencies": {
-    "log4js": "^2.5.3"
-  }
+  "license": "LGPL-3.0"
 }
