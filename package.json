@@ -17,6 +17,7 @@
 	"author": "Michael Jonker",
 	"license": "LGPL-3.0",
 	"dependencies": {
+		"express": "^4.16.3",
 		"log4js": "^2.5.3"
 	}
 }
