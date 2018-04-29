@@ -1,3 +1,4 @@
+"use strict";
 // Copyright (C) 2018 Michael Jonker
 // 
 // This file is part of The Yolk.
@@ -15,4 +16,3 @@
 // You should have received a copy of the GNU General Public License
 // along with The Yolk.  If not, see <http://www.gnu.org/licenses/>.
 // 
-
