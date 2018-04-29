@@ -1,3 +1,4 @@
+"use strict";
 // Copyright (C) 2018 Michael Jonker
 // 
 // This file is part of The Yolk.
@@ -15,4 +16,25 @@
 // You should have received a copy of the GNU General Public License
 // along with The Yolk.  If not, see <http://www.gnu.org/licenses/>.
 // 
-
+Object.defineProperty(exports, "__esModule", { value: true });
+const express = require("express");
+const app = express();
+/**
+ * @summary Various tools related to Http servers
+ * @namespace module:Common.Http
+ */
+var Http;
+(function (Http) {
+    /**
+     * @summary Create a static http server
+     * @param dir - The path to the directory which you wish to server
+     * @param port - The port that the server is to listen on
+     * @returns void
+     * @memberof module:Common.Http
+     */
+    function makeStatic(dir, port) {
+        app.use(express.static(dir));
+        app.listen(port);
+    }
+    Http.makeStatic = makeStatic;
+})(Http = exports.Http || (exports.Http = {}));
